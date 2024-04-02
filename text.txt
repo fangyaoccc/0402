@@ -1,0 +1,15 @@
+1) What does construction “try … catch” do?
+
+-try block: You place the code that might throw an exception within a try block. This is the code that you want to monitor for errors.
+-catch block: Following the try block, you have one or more catch blocks that handle specific types of exceptions. Each catch block is an exception handler that can process or respond to an exception thrown in the try block. 
+If an exception occurs, the flow of control jumps to the matching catch block.
+
+2) What does it mean when the program throws exceptions?
+
+Usually when a program throws an exception, it signals that an abnormal condition has occurred that the program cannot handle through its normal flow of execution. 
+Exceptions can be thrown by the Java runtime system or manually by the programmer using the throw statement.
+
+3) What is a Thread in Java?
+
+A Thread in Java represents a separate path of execution within a program. It allows a program to perform multiple tasks simultaneously by running parts of its code in parallel.
+Java provides built-in support for multithreading,such as : Concurrency and parallelism,Creating threads,Lifecycle,Synchronization,Use cases.
